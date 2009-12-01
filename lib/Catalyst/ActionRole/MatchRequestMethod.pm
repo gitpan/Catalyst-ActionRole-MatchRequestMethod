@@ -1,6 +1,5 @@
 package Catalyst::ActionRole::MatchRequestMethod;
-our $VERSION = '0.01';
-
+our $VERSION = '0.02';
 
 # ABSTRACT: Dispatch actions based on HTTP request methods
 
@@ -36,14 +35,11 @@ Catalyst::ActionRole::MatchRequestMethod - Dispatch actions based on HTTP reques
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
     package MyApp::Controller::Foo;
-our $VERSION = '0.01';
-
-
 
     use Moose;
     use namespace::autoclean;

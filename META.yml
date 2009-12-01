@@ -2,7 +2,7 @@
 abstract: 'Dispatch actions based on HTTP request methods'
 author:
   - 'Florian Ragwitz <rafl@debian.org>'
-generated_by: 'Dist::Zilla version 1.093000'
+generated_by: 'Dist::Zilla::Plugin::MetaYAML version 1.092450'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -10,10 +10,10 @@ meta-spec:
 name: Catalyst-ActionRole-MatchRequestMethod
 requires:
   Catalyst::Controller::ActionRole: 0
-  Catalyst::Runtime: 0
+  Catalyst::Runtime: 5.80
   HTTP::Request::Common: 0
   Moose::Role: 0
   Perl6::Junction: 0
   Test::More: 0.89
   namespace::autoclean: 0
-version: 0.01
+version: 0.02
