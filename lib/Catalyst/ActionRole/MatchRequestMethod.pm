@@ -1,6 +1,7 @@
 package Catalyst::ActionRole::MatchRequestMethod;
-our $VERSION = '0.02';
-
+BEGIN {
+  $Catalyst::ActionRole::MatchRequestMethod::VERSION = '0.03';
+}
 # ABSTRACT: Dispatch actions based on HTTP request methods
 
 use Moose::Role;
@@ -32,10 +33,6 @@ __END__
 =head1 NAME
 
 Catalyst::ActionRole::MatchRequestMethod - Dispatch actions based on HTTP request methods
-
-=head1 VERSION
-
-version 0.02
 
 =head1 SYNOPSIS
 
@@ -79,7 +76,7 @@ inspired by: L<http://dev.catalystframework.org/wiki/gettingstarted/howtos/HTTP_
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2009 by Florian Ragwitz.
+This software is copyright (c) 2010 by Florian Ragwitz.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
